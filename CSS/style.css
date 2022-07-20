@@ -508,3 +508,34 @@ img.message {
     object-fit: contain;
     background-image: url(../Images/contact.png);
 }
+.Rectangle-49 {
+  width: 329px;
+  height: 61px;
+  margin: 32px 362px 0 0;
+  padding: 14px 108px;
+  border: solid 1px #707070;
+  background-color: #fff;
+}
+.footerbody {
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #2c2728, #49443e);
+  background: linear-gradient(to right, #2c2728, #49443e);
+}
+#button-addon1 {
+  color: #ffc371;
+}
+
+i {
+  color: #ffc371;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
+}
+
