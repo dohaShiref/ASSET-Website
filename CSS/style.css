@@ -143,17 +143,19 @@ section {
   font-size: 24px;
 }
 
-.card {
+.card1 {
   position: relative;
   border-radius: 0;
   border: none;
   padding: 0;
   margin: 0;
+  margin-bottom: 10px;
 }
 
-.card-text {
+.card-text1 {
   position: absolute;
   margin-top: 180px;
+  margin-left: 10px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.53);
   font-family: OpenSans;
   font-size: 18px;
@@ -171,13 +173,14 @@ section {
   margin: 10px;
   width: 500px;
   height: 500px;
-  opacity: 0.67;
+  /* opacity: 0.47; */
   background: linear-gradient(
       to bottom,
       rgba(2, 164, 239, 0.4),
       rgba(10, 144, 117, 0.4)
     ),
     url(../Images/Group\ 101.jpg);
+  background-color: rgba(0, 0, 0, 0.32);
   background-size: cover;
 }
 
@@ -229,8 +232,60 @@ section {
   color: #272727;
 }
 
-.Rectangle-25 {
+.Rectangle-22 {
   margin-left: 50px;
+}
+
+.Rectangle-25 {
+  width: 260px;
+  height: 280px;
+  padding: 10px;
+  margin: auto;
+  /* padding: 24px 16px 27px; */
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  background-color: #fff;
+}
+img.dots-pattern {
+  width: 100%;
+  height: 383.5px;
+  /* margin: 80px 0 2229.5px 4px; */
+  object-fit: contain;
+  opacity: 0.2;
+}
+
+.Rectangle-52 {
+  width: 100%;
+  /* height: 380px; */
+  margin: 80px 0 0;
+  padding: 70px 139px;
+
+  /* opacity: 0.47; */
+  background-image: url(../Images/dots-pattern.png);
+  background-color: #0d31a8;
+  background-size: contain;
+}
+
+img.message {
+  width: 90px;
+  height: 70px;
+  margin: 24px 138px 8px 16px;
+  object-fit: contain;
+}
+
+.Lorem-ipsum {
+  /* width: 228px;
+    height: 79px;
+    margin: 8px 0 0; */
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #272727;
 }
 
 .Rectangle-23 {
@@ -258,4 +313,198 @@ section {
   letter-spacing: normal;
   text-align: left;
   color: #fff;
+}
+
+.Ready-to-be-Empowered-We-create-solutions-that-drive-results {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #272727;
+}
+.Ready-to-be-Empowered-We-create-solutions-that-drive-results .text-style-1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.card-title1 {
+  width: 200px;
+  height: 48px;
+  /* margin: 16px 77px 8px 0; */
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #272727;
+}
+
+.-Years-in-the-Technology-Transformation-Business {
+  width: 398px;
+  height: 220px;
+  margin: 0 16px 0 0;
+  font-family: OpenSans;
+  font-size: 40px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.Our-mission-is-to-deliver-smooth-IT-Transformation-Experiences-to-our-customers-empowered-by-profess {
+  /* width: 674px;
+    height: 96px;
+    margin: 19px 0 16px 16px; */
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.-Years-of-Experience {
+  /* width: 191px;
+    height: 70px; */
+  /* margin: 16px 16px 19px; */
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.text-style-years {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.Our-Technology-Partners {
+  width: 100%;
+  height: 76px;
+  margin: 88px 0 82px 0;
+  font-family: OpenSans;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #272727;
+}
+
+.Our-Technology-Partners .text-style-1 {
+  font-size: 24px;
+  font-weight: 300;
+  display: block;
+}
+
+.Group-130 {
+  /* width: 675px; */
+  height: 810px;
+  background-image: url(../Images/Group\ 130.jpg);
+  /* margin: 80px 0 88px 16px; */
+  background-size: cover;
+}
+
+.Rectangle-34 {
+  /* width: 635px; */
+  /* height: 340px; */
+  /* margin: 50px 10px 0 0; */
+  padding: 56px 21px 121px 98px;
+  object-fit: contain;
+  box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.Boost-efficiency-and-increase-accessibility {
+  width: 474px;
+  height: 86px;
+  margin: 0 42px 24px 0;
+  font-family: OpenSans;
+  font-size: 32px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #272727;
+}
+
+.OpenText-implementation-for-ADDAX-petroleum {
+  width: 515px;
+  height: 27px;
+  margin: 24px 0 40px 1px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #272727;
+}
+
+.item {
+  width: 148px;
+  height: 26px;
+  /* margin: 14px 0 14px 37px; */
+  object-fit: contain;
+}
+
+.item2 {
+  width: 168px;
+  height: 80px;
+  /* margin: 72px 0 0 16px; */
+  object-fit: contain;
+}
+
+.Rectangle-39 {
+  width: 329px;
+  height: 469px;
+  margin: 0 0.5px 0 0;
+  padding: 8px 8px 24px;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.card-li {
+  font-family: OpenSans;
+  font-size: 10px;
+  font-weight: bold;
+  color: #c4c4c4;
+  text-align: left;
+  margin-top: 5%;
+}
+
+.contact{
+    width: 100%;
+    height: 385px;
+    margin-top: 80px;
+    padding: 67px 536px 90px 139px;
+    object-fit: contain;
+    background-image: url(../Images/contact.png);
 }
