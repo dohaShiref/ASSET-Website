@@ -500,26 +500,57 @@ img.message {
   margin-top: 5%;
 }
 
-.contact{
-    width: 100%;
-    height: 385px;
-    margin-top: 80px;
-    padding: 67px 536px 90px 139px;
-    object-fit: contain;
-    background-image: url(../Images/contact.png);
+.contact {
+  width: 100%;
+  height: 385px;
+  margin-top: 3%;
+  padding: 5% 20% 90px 10%;
+  object-fit: contain;
+  background-image: url(../Images/contact.png);
 }
 .Rectangle-49 {
   width: 329px;
   height: 61px;
-  margin: 32px 362px 0 0;
+  /* margin: 32px 362px 0 0; */
   padding: 14px 108px;
   border: solid 1px #707070;
   background-color: #fff;
 }
+
+.Rectangle-37-close {
+  width: 85%;
+  height: 40px;
+  margin: 32px 48px 32px 1px;
+  padding: 8px 20px 8px 24px;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+}
+
+.Rectangle-37-open {
+  width: 85%;
+  height: 40px;
+  margin: 32px 48px 32px 1px;
+  padding: 8px 20px 8px 24px;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.16);
+  background-image: linear-gradient(to right, #02a4ef, #0699ae 39%, #0a9075 99%);
+}
+
+.content {
+  font-family: OpenSans;
+  width: 80%;
+  margin-left: 5%;
+  font-size: 16px;
+  overflow: hidden;
+  height: 0px;
+  transition: all 1s ease-in-out;
+}
+
 .footerbody {
-  background: #000000;
-  background: -webkit-linear-gradient(to right, #2c2728, #49443e);
-  background: linear-gradient(to right, #2c2728, #49443e);
+  background-color: #262626;
+  /* background: -webkit-linear-gradient(to right, #2c2728, #49443e);
+  background: linear-gradient(to right, #2c2728, #49443e); */
 }
 #button-addon1 {
   color: #ffc371;
@@ -527,6 +558,21 @@ img.message {
 
 i {
   color: #ffc371;
+}
+
+.footer-text{
+  width: 70%;
+  height: 85px;
+  margin: 5% 246px 64px 0;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
 }
 
 .form-control::placeholder {
@@ -538,4 +584,3 @@ i {
 .form-control.shadow-0:focus {
   box-shadow: none;
 }
-

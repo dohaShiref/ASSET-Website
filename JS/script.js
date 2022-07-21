@@ -14,3 +14,25 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+
+function slideDown(el) {
+    
+    // var element=document.getElementById("cl1");
+
+    var headers=document.querySelectorAll(".header");
+    headers.forEach(headers=>{
+        headers.addEventListener("click",event=>{
+            headers.classList.toggle("Rectangle-37-open");
+            var next = headers.nextElementSibling;
+            if (next.offsetHeight > 0) {
+                next.style.height = "0px";
+                headers.classList.toggle("Rectangle-37-close");
+              } else {
+                next.style.height = `${next.scrollHeight}px`;
+                // headers.classList.toggle("Rectangle-37-open");
+              }
+        })
+        
+    })
+  }
