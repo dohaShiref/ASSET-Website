@@ -20,17 +20,23 @@ function slideDown(el) {
     
     // var element=document.getElementById("cl1");
 
-    var headers=document.querySelectorAll(".header");
-    headers.forEach(headers=>{
-        headers.addEventListener("click",event=>{
-            headers.classList.toggle("Rectangle-37-open");
-            var next = headers.nextElementSibling;
+    const accorHeaders=document.querySelectorAll(".headers");
+    accorHeaders.forEach(header=>{
+        header.addEventListener("click",event=>{
+            // header.classList.toggle("Rectangle-37-open");
+            var next = header.nextElementSibling;
+            if(header.classList.contains("Rectangle-37-open")){
+                header.classList.toggle("Rectangle-37-close");
+            }
+            else{
+                header.classList.toggle("Rectangle-37-open");
+            }
             if (next.offsetHeight > 0) {
                 next.style.height = "0px";
-                headers.classList.toggle("Rectangle-37-close");
+                
               } else {
                 next.style.height = `${next.scrollHeight}px`;
-                // headers.classList.toggle("Rectangle-37-open");
+                header.classList.toggle("Rectangle-37-open");
               }
         })
         
