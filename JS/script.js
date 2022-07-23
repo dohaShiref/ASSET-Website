@@ -42,3 +42,21 @@ function slideDown(el) {
         
     })
   }
+
+  const accordionItemHeaders = document.querySelectorAll(".accordionn-item-headerr");
+
+        accordionItemHeaders.forEach(accordionItemHeader => {
+            accordionItemHeader.addEventListener("click", event => {
+
+
+                accordionItemHeader.classList.toggle("active");
+                const accordionItemBody = accordionItemHeader.nextElementSibling;
+                if (accordionItemHeader.classList.contains("active")) {
+                    accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+                }
+                else {
+                    accordionItemBody.style.maxHeight = 0;
+                }
+
+            });
+        });

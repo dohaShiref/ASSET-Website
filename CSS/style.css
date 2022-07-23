@@ -527,13 +527,7 @@ img.message {
   background-color: #fff;
 }
 
-.Rectangle-37-open {
-  width: 85%;
-  height: 40px;
-  margin: 32px 48px 32px 1px;
-  padding: 8px 20px 8px 24px;
-  border-radius: 30px;
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.16);
+.Rectangle-37-close.Rectangle-37-open {
   background-image: linear-gradient(to right, #02a4ef, #0699ae 39%, #0a9075 99%);
 }
 
@@ -546,6 +540,75 @@ img.message {
   height: 0px;
   transition: all 1s ease-in-out;
 }
+
+.theaccordion {
+
+  margin: 4rem auto;
+  border: none;
+
+
+}
+
+.accordionn-itemm {
+  border-radius: 50px;
+ 
+  color: #111;
+  margin: 1rem 0;
+  width: 450px;
+
+}
+
+.accordionn-item-headerr {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+  color: #000;
+  border-radius: 50px;
+
+  padding: 0.3rem 2rem 0.3rem 1rem;
+  min-height: 2.5rem;
+  line-height: 1.25rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;  
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.accordionn-item-headerr::after {
+  content: "\002B";
+  font-size: 1.5rem;
+  position: absolute;
+  right: 1rem;
+
+}
+
+.accordionn-item-headerr.active {
+  background-image: linear-gradient(to right, #02a4ef, #0699ae 39%, #0a9075 99%);
+  color: #fff;
+}
+
+.accordionn-item-headerr.active::after {
+  content: "\2212";
+  font-size: 1.5rem;
+
+}
+
+.accordionn-item-bodyy {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+}
+
+.accordionn-item-body-contentt {
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+}
+
 
 .footerbody {
   background-color: #262626;
