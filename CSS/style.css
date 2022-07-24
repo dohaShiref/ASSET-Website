@@ -40,6 +40,26 @@ section {
   text-align: left;
 }
 
+.navbar .megamenu{ padding: 1rem; }
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+  .navbar .has-megamenu{position:static!important;}
+  .navbar .megamenu{left:15%; right:15%; width:70%; margin-top:0;  }
+
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+  .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+    overflow-y: auto;
+      max-height: 90vh;
+      margin-top:10px;
+  }
+}
+
 .center-section {
   font-family: OpenSans;
   font-stretch: normal;
@@ -95,6 +115,14 @@ section {
   .On-our-30th-year {
     font-size: 32px;
   }
+  .MegaMenu-header{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .MegaMenu-para{
+    font-size: 14px;
+    text-decoration: none;
+  }
   
 }
 @media (max-width: 767px) {
@@ -129,6 +157,13 @@ section {
   .footer-content{
     display: none;
   }
+  .MegaMenu-header{
+    font-size: 14px;
+  }
+  .MegaMenu-para{
+    display: none;
+  }
+  
 }
 
 .second-section {
@@ -211,6 +246,7 @@ section {
   letter-spacing: normal;
   text-align: left;
   color: #fff;
+  -webkit-line-clamp: 2;
 }
 
 .Rectangle-24 {
@@ -688,3 +724,5 @@ i {
 .form-control.shadow-0:focus {
   box-shadow: none;
 }
+
+
