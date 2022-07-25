@@ -11,6 +11,10 @@ section {
   position: relative;
   left: 550px;
 }
+.row{
+  margin: 0;
+  padding: 0;
+}
 .transparent {
   width: 100%;
   height: 100vh;
@@ -61,7 +65,7 @@ section {
 }
 
 .center-section {
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -77,7 +81,7 @@ section {
 }
 
 .Learn-more {
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -154,6 +158,16 @@ section {
   .On-our-30th-year {
     font-size: 24px;
   }
+  .left-side {
+    padding-left: 40px;
+    margin: auto;
+  }
+  .left-side2 {
+    padding: 20px 50px 10px 50px ;
+  }
+  .card1{
+    margin-top: 10px;
+  }
   .footer-content{
     display: none;
   }
@@ -173,7 +187,7 @@ section {
 .On-our-30th-year {
   padding: 2%;
   /* margin: 103px 16px 8px 139px; */
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-stretch: normal;
   font-style: normal;
@@ -194,7 +208,7 @@ section {
 }
 .-years {
   margin-top: 20px;
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -205,7 +219,7 @@ section {
 }
 
 .Everything-your-business-needs-Seamlessly-Reimagined-Created-Implemented {
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 32px;
   font-weight: bold;
   font-stretch: normal;
@@ -228,8 +242,8 @@ section {
   border-radius: 0;
   border: none;
   padding: 0;
-  margin: 0;
-  margin-bottom: 10px;
+  /* margin: 0; */
+  /* margin-bottom: 10px; */
 }
 
 .card-text1 {
@@ -237,7 +251,7 @@ section {
   margin-top: 180px;
   margin-left: 10px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.53);
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: 600;
   font-stretch: normal;
@@ -266,7 +280,7 @@ section {
 }
 
 .Egyptian-Knowledge-Bank {
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   font-weight: 300;
   font-stretch: normal;
@@ -278,7 +292,7 @@ section {
 }
 
 .A-desired-thinking-and-Innovating-Egyptian-Society {
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 32px;
   font-weight: 300;
   font-stretch: normal;
@@ -290,7 +304,7 @@ section {
 }
 
 .ASSET-was-honored-to-be-selected-as-the-technology-partner-by-the-government-responsible-for-buildi {
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
@@ -302,7 +316,7 @@ section {
 }
 
 .ASSET-in-cooperation-with-contents-providers-consortium-members-were-able-to-deliver-such-huge-proje {
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
@@ -318,9 +332,9 @@ section {
 }
 
 .Rectangle-25 {
-  width: 260px;
+  width: 100%;
   height: 280px;
-  padding: 10px;
+  padding: 1%;
   margin: auto;
   /* padding: 24px 16px 27px; */
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.1);
@@ -358,7 +372,8 @@ img.message {
   /* width: 228px;
     height: 79px;
     margin: 8px 0 0; */
-  font-family: OpenSans;
+    
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -385,7 +400,7 @@ img.message {
 }
 
 .Learn-more {
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -399,7 +414,7 @@ img.message {
 .Ready-to-be-Empowered-We-create-solutions-that-drive-results {
   margin-top: 70px;
   margin-bottom: 40px;
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   font-weight: 300;
   font-stretch: normal;
@@ -415,11 +430,18 @@ img.message {
 }
 
 .card-title1 {
-  width: 200px;
-  height: 48px;
+  width: 100%;
+  padding-bottom: 1%;
   /* margin: 16px 77px 8px 0; */
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
+  word-break: break-word;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+  max-height: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -433,7 +455,7 @@ img.message {
   width: 398px;
   height: 220px;
   margin: 0 16px 0 0;
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 40px;
   font-weight: 800;
   font-stretch: normal;
@@ -448,7 +470,7 @@ img.message {
   /* width: 674px;
     height: 96px;
     margin: 19px 0 16px 16px; */
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: 100;
   font-stretch: normal;
@@ -463,7 +485,7 @@ img.message {
   /* width: 191px;
     height: 70px; */
   /* margin: 16px 16px 19px; */
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: normal;
   font-stretch: normal;
@@ -483,7 +505,7 @@ img.message {
   width: 100%;
   height: 76px;
   margin: 88px 0 82px 0;
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 32px;
   font-weight: bold;
   font-stretch: normal;
@@ -512,7 +534,7 @@ img.message {
   /* width: 635px; */
   /* height: 340px; */
   /* margin: 50px 10px 0 0; */
-  padding: 56px 21px 121px 98px;
+  padding: 2% 1% 2% 3%;
   object-fit: contain;
   box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.1);
   background-color: #fff;
@@ -522,7 +544,7 @@ img.message {
   width: 474px;
   height: 86px;
   margin: 0 42px 24px 0;
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 32px;
   font-weight: 800;
   font-stretch: normal;
@@ -537,7 +559,7 @@ img.message {
   width: 515px;
   height: 27px;
   margin: 24px 0 40px 1px;
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: normal;
   font-stretch: normal;
@@ -573,7 +595,7 @@ img.message {
 }
 
 .card-li {
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 10px;
   font-weight: bold;
   color: #c4c4c4;
@@ -613,7 +635,7 @@ img.message {
 }
 
 .content {
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   width: 80%;
   margin-left: 5%;
   font-size: 16px;
@@ -701,11 +723,11 @@ i {
 }
 
 .footer-text{
-  width: 70%;
+  width: 60%;
   height: 85px;
-  margin: 5% 246px 64px 0;
-  font-family: OpenSans;
-  font-size: 18px;
+  margin: 5% 10% 64px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -713,6 +735,26 @@ i {
   letter-spacing: normal;
   text-align: left;
   color: #fff;
+}
+
+.Subscribe-to-our-newsletter {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.rightfooter input {
+  width: 400px;
+  height: 35px;
+  background-image: url("../Images/Icon\ awesome-paper-plane.png");
+  background-repeat: no-repeat;
+  background-position: right; 
 }
 
 .form-control::placeholder {
@@ -725,4 +767,10 @@ i {
   box-shadow: none;
 }
 
-
+.footer-img{
+  width: 16px;
+  height: 16px;
+  margin-left:16px;
+  object-fit: contain;
+  /* background-color: #fff; */
+}

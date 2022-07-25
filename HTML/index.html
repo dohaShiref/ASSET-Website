@@ -5,6 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home Page</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+        </style>
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -31,12 +34,14 @@
                 <div class="container-fluid">
                     <img class="navbar-brand"
                         src="../Images/ASSET-Logo-white.png" />
+                        
                     <button class="navbar-toggler" type="button"
                         data-bs-toggle="collapse" data-bs-target="#navbarText"
                         aria-controls="navbarText" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+                    
                     <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
@@ -49,7 +54,7 @@
                                     <div class="row my-4">
                                         <div class="col-md-12 col-lg-4 mb-3
                                             mb-lg-0">
-                                            <div>
+                                            <div onmouseenter="slideDown(this)">
                                                 <span class="MegaMenu-header">
                                                     Correspondence Management
                                                 </span>
@@ -152,10 +157,12 @@
                             <span class="nav-item">
                                 Contact
                             </span>
-                            <img class="nav-item" src="../Images/Icon feather-search.png" width="24px" height="24px"
-                                />
+                            
                         </div>
+                        
                     </div>
+                    <img class="nav-item" src="../Images/Icon feather-search.png" width="24px" height="24px"
+                                />
                 </div>
             </nav>
 
@@ -176,7 +183,7 @@
 
         <div class="container second-section">
             <div class="row">
-                <div class="col-lg-6 col-md-12 left-side text-center">
+                <div class="col-lg-6 col-md-12 left-side">
                     <span
                         class="On-our-30th-year">
                         On
@@ -190,7 +197,7 @@
                         <span class="text-style">it's just the beginning.</span>
                     </span>
                 </div>
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12 left-side2">
                     <span class="-years">30 years of continuous commitment,
                         dedication, and aspiration to build the future of
                         organizations through technology solutions that empower.
@@ -221,10 +228,10 @@
         </div>
 
 
-        <div class="row m-5 px-5">
+        <div class="row my-3 mx-5 px-5">
             <div class="col-lg-3 col-sm-6">
                 <div class="card1" style="width: 100%; height: 260px;
-                    background-image: url(../Images/Group\ 123.jpg);">
+                    background-image: url(../Images/Group\ 123.jpg); background-size: cover;">
                     <div class="card-body">
                         <p class="card-text1">Intranets <br>
                             and Portals</p>
@@ -233,7 +240,7 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="card1" style="width: 100%; height: 260px;
-                    background-image: url(../Images/Group\ 124.jpg);">
+                    background-image: url(../Images/Group\ 124.jpg);  background-size: cover;">
                     <div class="card-body">
                         <p class="card-text1">Mobile Apps <br>
                             Development</p>
@@ -242,7 +249,7 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="card1" style="width: 100%; height: 260px;
-                    background-image: url(../Images/Group\ 125.jpg);">
+                    background-image: url(../Images/Group\ 125.jpg);  background-size: cover;">
                     <div class="card-body">
                         <p class="card-text1">Custom Software <br>
 
@@ -252,7 +259,7 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="card1" style="width: 100%; height: 260px;
-                    background-image: url(../Images/Group\ 126.jpg);">
+                    background-image: url(../Images/Group\ 126.jpg);  background-size: cover;">
                     <div class="card-body">
                         <p class="card-text1">Outsourcing </p>
                     </div>
@@ -260,10 +267,10 @@
             </div>
         </div>
 
-        <div class="row m-5 px-5">
+        <div class="row my-3 mx-5 px-5">
             <div class="col-lg-3 col-sm-6">
                 <div class="card1" style="width: 100%; height: 260px;
-                    background-image: url(../Images/Group\ 127.jpg);">
+                    background-image: url(../Images/Group\ 127.jpg);  background-size: cover;">
                     <div class="card-body">
                         <p class="card-text1">Microservices </p>
                     </div>
@@ -271,7 +278,7 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="card1" style="width: 100%; height: 260px;
-                    background-image: url(../Images/Group\ 128.jpg);">
+                    background-image: url(../Images/Group\ 128.jpg); background-size: cover;">
                     <div class="card-body">
                         <p class="card-text1">e-Commerce <br>
 
@@ -281,7 +288,7 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="card1" style="width: 100%; height: 260px;
-                    background-image: url(../Images/Group\ 129.jpg);">
+                    background-image: url(../Images/Group\ 129.jpg);  background-size: cover;">
                     <div class="card-body">
                         <p class="card-text1">Offshore <br>
 
@@ -348,7 +355,8 @@
                         src="../Images/message.png" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title1">Correspondence
-                            Management</h5>
+                            Management
+                        </h5>
                         <p class="Lorem-ipsum">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Aliquam aliquet, elit vel semper dapibus,
@@ -677,11 +685,11 @@
                     <img class="card-img-top" src="../Images/1.jpg" alt="Card
                         image cap">
                     <div class="card-body">
-                        <h5 class="card-title" style="font-family: OpenSans;
+                        <h5 class="card-title" style="font-family: 'Open Sans', sans-serif;
                             font-size: 18px;
                             font-weight: bold;">ASSET is Now Opentext
                             Platinum Partner</h5>
-                        <p class="card-text" style="font-family: OpenSans;
+                        <p class="card-text" style="font-family: 'Open Sans', sans-serif;
                             font-size: 14px;">Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit. Aliquam aliquet, elit
                             vel semper dapibus, , mauris felis aliquam odio,
@@ -703,7 +711,7 @@
                             font-size: 18px;
                             font-weight: bold;">EOH leads the smart cities
                             practice in ICEC, Egypt</h5>
-                        <p class="card-text" style="font-family: OpenSans;
+                        <p class="card-text" style="font-family: 'Open Sans', sans-serif;
                             font-size: 14px;">Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit. Aliquam aliquet, elit
                             vel semper dapibus, , mauris felis aliquam odio,
@@ -720,11 +728,11 @@
                     <img class="card-img-top" src="../Images/2.jpg" alt="Card
                         image cap">
                     <div class="card-body">
-                        <h5 class="card-title" style="font-family: OpenSans;
+                        <h5 class="card-title" style="font-family: 'Open Sans', sans-serif;
                             font-size: 18px;
                             font-weight: bold;">ASSET wins Etisalat Egypt
                             Innovation Award</h5>
-                        <p class="card-text" style="font-family: OpenSans;
+                        <p class="card-text" style="font-family: 'Open Sans', sans-serif;
                             font-size: 14px;">Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit. Aliquam aliquet, elit
                             vel semper dapibus, , mauris felis aliquam odio,
@@ -766,15 +774,15 @@
         <div class="footerbody">
             <div class="container my-">
 
-                <footer class="text-center text-lg-start
+                <footer class="text-left text-lg-start
                     mt-xl-5 pt-4" style="color: white;">
                     <!-- Grid container -->
                     <div class="container p-4 footer-content">
                         <!--Grid row-->
                         <div class="row">
                             <!--Grid column-->
-                            <div class="col-lg-9 col-md-0 mb-0 mb-lg-0">
-                                <img
+                            <div class="col-lg-7 col-md-0 mb-0 mb-lg-0">
+                                <img width="120px" height="30px"
                                     src="../Images/ASSET-Logo-white.png" />
 
                                 <div class="footer-text">
@@ -798,14 +806,14 @@
 
 
                             <!--Grid column-->
-                            <div class="col-lg-3 col-md-0 mb-0 mb-lg-0">
+                            <div class="col-lg-5 col-md-0 mb-0 mb-lg-0">
                                 <div class="rightfooter">
-                                    <span>Subscribe to our newsletter</span>
-                                    <br><br>
-                                    <input type="text"
+                                    <span class="Subscribe-to-our-newsletter">Subscribe to our newsletter</span>
+                                    
+                                    <input type="text" class="px-3 my-2"
                                         placeholder="name@example.com" />
                                     <br><br><br>
-                                    <p>Solutions | Services | Industries |
+                                    <p style="font-size: 14px;" class="ps-5">Solutions | Services | Industries |
                                         Company | Contact</p>
                                     <br>
 
@@ -818,17 +826,16 @@
                     <!-- Grid container -->
 
                     <!-- Copyright -->
-                    <div class="text-center p-3 border-top border-white row">
-                        <div class="col text-right"> © 2020 Copyright:
-                            <a class="text-white"
-                                href="https://mdbootstrap.com/">MDBootstrap.com</a></div>
-                        <div class="col text-left">
+                    <div class="c0l-9 p-3 border-top border-white row">
+                        <div class="col text-right">Copyright Ⓒ 2021 ASSET Technology Group. All rights reserved   |   Privacy Policy
+                           
+                        </div>
+                        <div class="col-3 text-right">
                             <p>Follow us |
-                                <img src="../Images/Icon awesome-facebook-f.png"
+                                <img src="../Images/Icon awesome-facebook-f.png" class="footer-img"
                                     height="20px">
-                                <img src="../Images/Icon
-                                    awesome-linkedin-in.png">
-                                <img src="../Images/Icon awesome-instagram.png">
+                                <img src="../Images/Icon awesome-linkedin-in.png" class="footer-img">
+                                <img src="../Images/Icon awesome-instagram.png" class="footer-img">
                             </p>
                         </div>
                     </div>
