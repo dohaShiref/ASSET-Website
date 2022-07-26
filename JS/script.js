@@ -4,7 +4,7 @@ $('.owl-carousel').owlCarousel({
     nav: true,
     responsive: {
         0: {
-            items: 1
+            items: 2
         },
         600: {
             items: 3
@@ -76,3 +76,26 @@ function slideDown(el) {
 
             });
         });
+
+        const accordionItemHeaders2 = document.querySelectorAll(".accordionn-item-headerr2");
+
+        accordionItemHeaders2.forEach(accordionItemHeader2 => {
+            accordionItemHeader2.addEventListener("click", event => {
+
+
+                accordionItemHeader2.classList.toggle("active");
+                const accordionItemBody2 = accordionItemHeader2.nextElementSibling;
+                if (accordionItemHeader2.classList.contains("active")) {
+                    accordionItemBody2.style.maxHeight = accordionItemBody2.scrollHeight + "px";
+                }
+                else {
+                    accordionItemBody2.style.maxHeight = 0;
+                }
+
+            });
+        });
+
+var navItem=document.getElementsByClassName("nav-item");
+navItem.addEventListener('click',function(){
+    navItem[0].classList.toggle('cli');
+})

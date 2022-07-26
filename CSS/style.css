@@ -37,6 +37,14 @@ section {
   margin-left: 20px;
 }
 
+.nav-item:hover{
+  border-bottom: 4px #02a4ef solid;
+}
+#megaMenu{
+  margin-top: 15px;
+  border: none;
+  border-radius: 0;
+}
 .navbar {
   padding-top: 1%;
   padding-right: 10%;
@@ -122,10 +130,15 @@ section {
   .MegaMenu-header{
     font-size: 16px;
     font-weight: bold;
+    padding-bottom: 5%;
   }
-  .MegaMenu-para{
+  .MegaMenu-para mb-3{
     font-size: 14px;
     text-decoration: none;
+    padding-bottom: 5%;
+  }
+  #navBar-Responsive{
+    display: none;
   }
   
 }
@@ -137,7 +150,7 @@ section {
     font-size: 14px;
   }
   .center-section {
-    margin-top: 25%;
+    margin-top: 70%;
   }
   .btn {
     width: 30%;
@@ -174,7 +187,10 @@ section {
   .MegaMenu-header{
     font-size: 14px;
   }
-  .MegaMenu-para{
+  .MegaMenu-para mb-3{
+    display: none;
+  }
+  #navBarSec{
     display: none;
   }
   
@@ -365,7 +381,12 @@ img.dots-pattern {
   background-color: #0d31a8;
   background-size: contain;
 }
-
+.myExampleModal{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
 img.message {
   width: 90px;
   height: 70px;
@@ -661,6 +682,11 @@ img.message {
   width: 80%;
 
 }
+.accordionn-itemm2 {
+  color: #111;
+  width: 100%;
+
+}
 
 .accordionn-item-headerr {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.16);
@@ -668,6 +694,21 @@ img.message {
   color: #000;
   border-radius: 50px;
 
+  padding: 0.3rem 2rem 0.3rem 1rem;
+  min-height: 2.5rem;
+  line-height: 1.25rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;  
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.accordionn-item-headerr2 {
+  background-color: #fff;
+  color: #000;
+  width: 100%;
   padding: 0.3rem 2rem 0.3rem 1rem;
   min-height: 2.5rem;
   line-height: 1.25rem;
@@ -707,6 +748,40 @@ img.message {
 }
 
 .accordionn-item-body-contentt {
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+}
+
+.accordionn-item-headerr2::after {
+  content: "\002B";
+  font-size: 1.5rem;
+  position: absolute;
+  right: 1rem;
+
+}
+
+.accordionn-item-headerr2.active {
+  background-color: #0c4c8d;
+  color: #fff;
+}
+
+.accordionn-item-headerr2.active::after {
+  content: "\2212";
+  font-size: 1.5rem;
+
+}
+
+.accordionn-item-bodyy2 {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+  
+}
+
+.accordionn-item-body-contentt2 {
   padding: 1rem;
   line-height: 1.5rem;
   border-top: 1px solid;
