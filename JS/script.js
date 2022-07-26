@@ -15,6 +15,19 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
+var search=document.getElementById('navBar-search');
+var closeSear=document.getElementById('closesearch');
+var searchSection=document.getElementById('search-section');
+var navbarSection=document.getElementById('navBarSec');
+search.addEventListener('click',function () {
+    // navbarSection.style.backgroundColor='white';
+    navbarSection.classList.toggle("active");
+    searchSection.classList.remove("active");
+});
+closeSear.addEventListener('click',function () {
+    navbarSection.classList.remove("active");
+    searchSection.classList.toggle("active");
+});
 
 function slideDown(el) {
 

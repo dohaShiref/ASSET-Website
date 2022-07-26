@@ -179,7 +179,12 @@ section {
   }
   
 }
-
+#search-section.active{
+  display: none;
+}
+#navBarSec.active {
+  display: none;
+}
 .second-section {
   padding-top: 2%;
 }
