@@ -198,7 +198,14 @@ section {
 #search-section.active{
   display: none;
 }
+
+#search-section2.active{
+  display: none;
+}
 #navBarSec.active {
+  display: none;
+}
+#navBar-Responsive.active{
   display: none;
 }
 

@@ -20,13 +20,32 @@ var closeSear=document.getElementById('closesearch');
 var searchSection=document.getElementById('search-section');
 var navbarSection=document.getElementById('navBarSec');
 search.addEventListener('click',function () {
-    // navbarSection.style.backgroundColor='white';
     navbarSection.classList.toggle("active");
     searchSection.classList.remove("active");
 });
 closeSear.addEventListener('click',function () {
     navbarSection.classList.remove("active");
     searchSection.classList.toggle("active");
+});
+
+var searchResponsive=document.getElementById('search-Res');
+var searchResponsive2=document.getElementById('search-Res2');
+var closeSearRes=document.getElementById('closesearch-res');
+var searchSectionRes=document.getElementById('search-section2');
+var navbarSection2=document.getElementById('navBar-Responsive');
+searchResponsive.addEventListener('click',function () {
+    document.getElementById("mySidenav").style.width = "0";
+    navbarSection2.classList.toggle("active");
+    searchSectionRes.classList.remove("active");
+});
+searchResponsive2.addEventListener('click',function () {
+    document.getElementById("mySidenav").style.width = "0";
+    navbarSection2.classList.toggle("active");
+    searchSectionRes.classList.remove("active");
+});
+closeSearRes.addEventListener('click',function () {
+    navbarSection2.classList.remove("active");
+    searchSectionRes.classList.toggle("active");
 });
 
 function slideDown(el) {
