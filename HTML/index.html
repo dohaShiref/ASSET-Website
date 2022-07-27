@@ -34,15 +34,15 @@
                 <div class="container-fluid">
                     <img class="navbar-brand"
                         src="../Images/ASSET-Logo-white.png" />
-        
-                        
+
+
                     <button class="navbar-toggler" type="button"
                         data-bs-toggle="collapse" data-bs-target="#navbarText"
                         aria-controls="navbarText" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    
+
                     <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
@@ -50,7 +50,8 @@
                         <div class="navbar-nav mb-2 mb-lg-0">
                             <span class="nav-item" data-bs-toggle="dropdown">
                                 Solutions </span>
-                            <div class="dropdown-menu megamenu" role="menu" id="megaMenu">
+                            <div class="dropdown-menu megamenu" role="menu"
+                                id="megaMenu">
                                 <div class="container">
                                     <div class="row my-4">
                                         <div class="col-md-12 col-lg-4 mb-3
@@ -133,7 +134,9 @@
                                                     Smart Solutions </span>
                                             </div>
                                             <li class="pb-2">
-                                                <a class="MegaMenu-para" style="text-decoration: none;">NAMAA</a>
+                                                <a class="MegaMenu-para"
+                                                    style="text-decoration:
+                                                    none;">NAMAA</a>
                                             </li>
                                             <li class="pb-2">
                                                 <span class="MegaMenu-para">PARKIVA</span>
@@ -158,126 +161,129 @@
                             <span class="nav-item">
                                 Contact
                             </span>
-                            
+
                         </div>
-                        
+
                     </div>
-                    
+
                 </div>
                 <img class="nav-item" id="navBar-search" src="../Images/Icon feather-search.png" width="24px" height="24px"
-                                />
+                    />
             </nav>
-            <div id="search-section" class="active" style="width: 100%; height:24px">
+            <div id="search-section" class="active" style="width: 100%;
+                height:24px">
                 <div class="input-group px-5 pt-3">
                     <img class="navbar-brand mx-5"
                         src="../Images/ASSET-Logo-white.png" />
-                    <img src="../Images/icon-close.png" width="10%" height="50px" id="closesearch"
-                                />
-                      <input type="search" id="form1" class="form-control" />
-                      <img src="../Images/icon-search.png" width="10%" height="50px"
-                                />
-                  </div>
+                    <img src="../Images/icon-close.png" width="10%"
+                        height="50px" id="closesearch"
+                        />
+                    <input type="search" id="form1" class="form-control" />
+                    <img src="../Images/icon-search.png" width="10%"
+                        height="50px"
+                        />
+                </div>
             </div>
 
-            <div id="navBar-Responsive" class="px-2 py-1 row" style="width: 100%; background-color: #fff;">
+            <div id="navBar-Responsive" class="px-2 py-1 row" style="width:
+                100%; background-color: #fff;">
                 <!-- <div class="input-group px-5 pt-3 row"> -->
-                   <div class="col-8 py-2"> <img 
+                <div class="col-8 py-2"> <img
                         src="../Images/ASSET-logo.png" width="90px" /></div>
-                        <div class="col-2">
-                            <img src="../Images/icon-search.png" width="46px" height="46px"
-                                />
-                        </div>
-                    <div class="col-2 py-2" data-bs-toggle="modal" data-bs-target="#exampleModal"> <img src="../Images/Icon feather-menu.png" width="34px" height="26px"
+                <div class="col-2">
+                    <img src="../Images/icon-search.png" width="46px"
+                        height="46px"
+                        />
+                </div>
+                <div class="col-2 py-2" onclick="openNav()"> <img
+                        src="../Images/Icon feather-menu.png" width="34px"
+                        height="26px"
                         /></div>
             </div>
 
-            <div class="modal fade" style="border-radius:0 ; border: none;" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog m-0 p-0" >
-    <div class="modal-content myExampleModal">
-      <div class="modal-header">
-        <div class="py-1 row" style="width: 100%; background-color: #fff;">
-               <div class="col-8"> <img 
-                    src="../Images/ASSET-logo.png" width="90px" /></div>
+            <div id="mySidenav" class="sidenav">
+                <div class="py-2 row" style="width: 100%; background-color:
+                    #fff;">
+                    <div class="col-8 pt-2"> <img
+                            src="../Images/ASSET-logo.png" width="90px" /></div>
                     <div class="col-2">
                         <img src="../Images/icon-search.png" width="46px"
+                            height="50px"
                             />
                     </div>
-                    <div class="col-2">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-        </div>
-      </div>
-      <div class="modal-body">
-        <div class="theaccordion">
-            <div class="accordionn-itemm2">
-                <div
-                    class="accordionn-item-headerr2">
-                    Solutions
-                </div>
-                <div class="accordionn-item-bodyy2">
-                    <div
-                        class="accordionn-item-body-contentt2">
-                       <div class="my-3"> <span> Correspondence Management</span></div>
-                       <div class="my-3"> <span> Information Management (EIM)</span></div>
-                       <div class="my-3"> <span> Insurance Automation</span></div>
-                       <div class="my-3"> <span> Telecom Solutions</span></div>
-                       <div class="my-3"> <span> Smart Solutions</span></div>
-                       <div class="my-3"> <span> Business Applications</span></div>
-                        
+                    <div class="col-2 pt-3">
+                        <button type="button" class="btn-close"
+                            onclick="closeNav()"></button>
                     </div>
                 </div>
-            </div>
-            <div class="accordionn-itemm2">
-                <div
-                    class="accordionn-item-headerr2">
-                    Services
-                </div>
-                <div class="accordionn-item-bodyy2">
-                    <div
-                        class="accordionn-item-body-contentt2">
-                        Lorem ipsum.
+                <div class="theaccordion">
+                    <div class="accordionn-itemm2">
+                        <div
+                            class="accordionn-item-headerr2">
+                            Solutions
+                        </div>
+                        <div class="accordionn-item-bodyy2">
+                            <div
+                                class="accordionn-item-body-contentt2">
+                                <div class="my-3"> <span> Correspondence
+                                        Management</span></div>
+                                <div class="my-3"> <span> Information Management
+                                        (EIM)</span></div>
+                                <div class="my-3"> <span> Insurance Automation</span></div>
+                                <div class="my-3"> <span> Telecom Solutions</span></div>
+                                <div class="my-3"> <span> Smart Solutions</span></div>
+                                <div class="my-3"> <span> Business Applications</span></div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
+                    <div class="accordionn-itemm2">
+                        <div
+                            class="accordionn-item-headerr2">
+                            Services
+                        </div>
+                        <div class="accordionn-item-bodyy2">
+                            <div
+                                class="accordionn-item-body-contentt2">
+                                Lorem ipsum.
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="accordionn-itemm2">
-                <div
-                    class="accordionn-item-headerr2">
-                    Industries
-                </div>
-                <div class="accordionn-item-bodyy2">
-                    <div
-                        class="accordionn-item-body-contentt2">
-                        Lorem ipsum.
+                    <div class="accordionn-itemm2">
+                        <div
+                            class="accordionn-item-headerr2">
+                            Industries
+                        </div>
+                        <div class="accordionn-item-bodyy2">
+                            <div
+                                class="accordionn-item-body-contentt2">
+                                Lorem ipsum.
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
 
-            <div class="accordionn-itemm2">
-                <div
-                    class="accordionn-item-headerr2">
-                    Company
-                </div>
-                <div class="accordionn-item-bodyy2">
-                    <div
-                        class="accordionn-item-body-contentt2">
-                        Lorem ipsum.
+                    <div class="accordionn-itemm2">
+                        <div
+                            class="accordionn-item-headerr2">
+                            Company
+                        </div>
+                        <div class="accordionn-item-bodyy2">
+                            <div
+                                class="accordionn-item-body-contentt2">
+                                Lorem ipsum.
+                            </div>
+                        </div>
                     </div>
+
+                    <div>
+                        <div class="px-3" style="font-weight: 600;">
+                            Contact
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
-
-            <div>
-                <div class="px-3" style="font-weight: 600;">
-                    Contact
-                </div>
-            </div>
-            
-
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
             <div class="center-section">
                 <div class="ASSET-is-now">
@@ -344,7 +350,8 @@
         <div class="row my-3 mx-5 px-5">
             <div class="col-lg-3 col-sm-6">
                 <div class="card1" style="width: 100%; height: 260px;
-                    background-image: url(../Images/Group\ 123.jpg); background-size: cover;">
+                    background-image: url(../Images/Group\ 123.jpg);
+                    background-size: cover;">
                     <div class="card-body">
                         <p class="card-text1">Intranets <br>
                             and Portals</p>
@@ -353,7 +360,8 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="card1" style="width: 100%; height: 260px;
-                    background-image: url(../Images/Group\ 124.jpg);  background-size: cover;">
+                    background-image: url(../Images/Group\ 124.jpg);
+                    background-size: cover;">
                     <div class="card-body">
                         <p class="card-text1">Mobile Apps <br>
                             Development</p>
@@ -362,7 +370,8 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="card1" style="width: 100%; height: 260px;
-                    background-image: url(../Images/Group\ 125.jpg);  background-size: cover;">
+                    background-image: url(../Images/Group\ 125.jpg);
+                    background-size: cover;">
                     <div class="card-body">
                         <p class="card-text1">Custom Software <br>
 
@@ -372,7 +381,8 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="card1" style="width: 100%; height: 260px;
-                    background-image: url(../Images/Group\ 126.jpg);  background-size: cover;">
+                    background-image: url(../Images/Group\ 126.jpg);
+                    background-size: cover;">
                     <div class="card-body">
                         <p class="card-text1">Outsourcing </p>
                     </div>
@@ -383,7 +393,8 @@
         <div class="row my-3 mx-5 px-5">
             <div class="col-lg-3 col-sm-6">
                 <div class="card1" style="width: 100%; height: 260px;
-                    background-image: url(../Images/Group\ 127.jpg);  background-size: cover;">
+                    background-image: url(../Images/Group\ 127.jpg);
+                    background-size: cover;">
                     <div class="card-body">
                         <p class="card-text1">Microservices </p>
                     </div>
@@ -391,7 +402,8 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="card1" style="width: 100%; height: 260px;
-                    background-image: url(../Images/Group\ 128.jpg); background-size: cover;">
+                    background-image: url(../Images/Group\ 128.jpg);
+                    background-size: cover;">
                     <div class="card-body">
                         <p class="card-text1">e-Commerce <br>
 
@@ -401,7 +413,8 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="card1" style="width: 100%; height: 260px;
-                    background-image: url(../Images/Group\ 129.jpg);  background-size: cover;">
+                    background-image: url(../Images/Group\ 129.jpg);
+                    background-size: cover;">
                     <div class="card-body">
                         <p class="card-text1">Offshore <br>
 
@@ -798,11 +811,13 @@
                     <img class="card-img-top" src="../Images/1.jpg" alt="Card
                         image cap">
                     <div class="card-body">
-                        <h5 class="card-title" style="font-family: 'Open Sans', sans-serif;
+                        <h5 class="card-title" style="font-family: 'Open Sans',
+                            sans-serif;
                             font-size: 18px;
                             font-weight: bold;">ASSET is Now Opentext
                             Platinum Partner</h5>
-                        <p class="card-text" style="font-family: 'Open Sans', sans-serif;
+                        <p class="card-text" style="font-family: 'Open Sans',
+                            sans-serif;
                             font-size: 14px;">Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit. Aliquam aliquet, elit
                             vel semper dapibus, , mauris felis aliquam odio,
@@ -824,7 +839,8 @@
                             font-size: 18px;
                             font-weight: bold;">EOH leads the smart cities
                             practice in ICEC, Egypt</h5>
-                        <p class="card-text" style="font-family: 'Open Sans', sans-serif;
+                        <p class="card-text" style="font-family: 'Open Sans',
+                            sans-serif;
                             font-size: 14px;">Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit. Aliquam aliquet, elit
                             vel semper dapibus, , mauris felis aliquam odio,
@@ -841,11 +857,13 @@
                     <img class="card-img-top" src="../Images/2.jpg" alt="Card
                         image cap">
                     <div class="card-body">
-                        <h5 class="card-title" style="font-family: 'Open Sans', sans-serif;
+                        <h5 class="card-title" style="font-family: 'Open Sans',
+                            sans-serif;
                             font-size: 18px;
                             font-weight: bold;">ASSET wins Etisalat Egypt
                             Innovation Award</h5>
-                        <p class="card-text" style="font-family: 'Open Sans', sans-serif;
+                        <p class="card-text" style="font-family: 'Open Sans',
+                            sans-serif;
                             font-size: 14px;">Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit. Aliquam aliquet, elit
                             vel semper dapibus, , mauris felis aliquam odio,
@@ -921,12 +939,14 @@
                             <!--Grid column-->
                             <div class="col-lg-5 col-md-0 mb-0 mb-lg-0">
                                 <div class="rightfooter">
-                                    <span class="Subscribe-to-our-newsletter">Subscribe to our newsletter</span>
-                                    
+                                    <span class="Subscribe-to-our-newsletter">Subscribe
+                                        to our newsletter</span>
+
                                     <input type="text" class="px-3 my-2"
                                         placeholder="name@example.com" />
                                     <br><br><br>
-                                    <p style="font-size: 14px;" class="ps-5">Solutions | Services | Industries |
+                                    <p style="font-size: 14px;" class="ps-5">Solutions
+                                        | Services | Industries |
                                         Company | Contact</p>
                                     <br>
 
@@ -940,15 +960,19 @@
 
                     <!-- Copyright -->
                     <div class="c0l-9 p-3 border-top border-white row">
-                        <div class="col text-right">Copyright Ⓒ 2021 ASSET Technology Group. All rights reserved   |   Privacy Policy
-                           
+                        <div class="col text-right">Copyright Ⓒ 2021 ASSET
+                            Technology Group. All rights reserved | Privacy
+                            Policy
+
                         </div>
                         <div class="col-3 text-right">
                             <p>Follow us |
-                                <img src="../Images/Icon awesome-facebook-f.png" class="footer-img"
+                                <img src="../Images/Icon awesome-facebook-f.png"
+                                    class="footer-img"
                                     height="20px">
                                 <img src="../Images/Icon awesome-linkedin-in.png" class="footer-img">
-                                <img src="../Images/Icon awesome-instagram.png" class="footer-img">
+                                <img src="../Images/Icon awesome-instagram.png"
+                                    class="footer-img">
                             </p>
                         </div>
                     </div>

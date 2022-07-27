@@ -99,3 +99,12 @@ var navItem=document.getElementsByClassName("nav-item");
 navItem.addEventListener('click',function(){
     navItem[0].classList.toggle('cli');
 })
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+  }
+  
+  /* Close/hide the sidenav */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
