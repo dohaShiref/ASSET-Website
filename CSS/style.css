@@ -274,6 +274,13 @@ section {
   .th-cards{
     padding: 0 100px;
   }
+  .contact {
+    width: 100%;
+    height: 385px;
+    margin-top: 3%;
+    padding: 5% 20% 90px 10%;
+    font-size: 24px;
+  }
 }
 @media (max-width: 767px) {
   .col-xs-6 {
@@ -429,6 +436,13 @@ section {
     padding: 8px 8px 24px; */
     margin-left: 10px;
     padding: 7px 7px 16px;
+  }
+  .contact {
+    width: 100%;
+    /* height: 225px; */
+    margin-top: 3%;
+    padding: 24px 35px;
+    font-size: 18px;
   }
   .footerbody{
     display: none;
@@ -906,6 +920,10 @@ img.message {
   background-size: 10px 10px;
   color: #fff;
 }
+.eventbtn{
+  background-color: #02a4ef;
+  background-image: url("../Images/Icon\ material-event.png");
+}
 .card-li {
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
@@ -917,9 +935,7 @@ img.message {
 
 .contact {
   width: 100%;
-  height: 385px;
   margin-top: 3%;
-  padding: 5% 20% 90px 10%;
   object-fit: contain;
   background-image: url(../Images/contact.png);
 }
