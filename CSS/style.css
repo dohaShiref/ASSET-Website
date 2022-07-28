@@ -140,9 +140,145 @@ section {
   #navBar-Responsive{
     display: none;
   }
+  .first-cards{
+    margin: 10px 50px 20px 70px;
+    padding: 0 40px;
+  }
+  .card-text1 {
+    margin-top: 190px;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  .second-section {
+    padding-top: 2%;
+  }
+  .Egyptian-Knowledge-Bank {
+    font-size: 24px;
+  }
+  .A-desired-thinking-and-Innovating-Egyptian-Society {
+    font-size: 32px;
+  }
+  .Rectangle-24 {
+    padding: 0;
+    width: 100%;
+    height: 550px;
+  }
+  .second-section-Responsive{
+    display: none;
+  }
+  .Everything-your-business {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #272727;
+  }
+  .ASSET-was-honored{
+    font-size: 18px;
+  }
+  .Ready-to-be-Empowered-We-create-solutions-that-drive-results {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+  .Ready-to-be-Empowered-We-create-solutions-that-drive-results .text-style-1 {
+    font-size: 32px;
+  }
+  .second-cards{
+    padding: 0 90px;
+  }
+  .Rectangle-23 {
+    width: 260px;
+    height: 56px;
+    padding: 17px 86px 17px 87px;
+    margin-top: 60px;
+  }
+  .Rectangle-52 {
+    width: 100%;
+    margin: 80px 0 0;
+    padding: 70px 139px;
+  }  
+  .-Years-in-the-Technology-Transformation-Business {
+    width: 398px;
+    height: 220px;
+    margin: 0 16px 0 0;
+    font-size: 40px;
+  }
+  .card1{
+    height: 260px;
+    margin-top: 10px;
+  }
+  .Our-mission-is-to-deliver {
+    font-size: 18px;
+  }
+  .-Years-of-Experience {
+    font-size: 20px;
+  }
   
+  .text-style-years {
+    font-size: 32px;
+  }
+  .Our-Technology-Partners {
+    width: 100%;
+    height: 76px;
+    margin: 88px 0 82px 0;
+    font-size: 32px;
+  }
+  
+  .Our-Technology-Partners .text-style-1 {
+    font-size: 24px;
+  }
+  .owl-carousel{
+    padding: 0 100px;
+  }
+  .Rectangle-34 {
+    padding: 2% 1% 1% 3%;
+    padding-right: 10px;
+    height: 740px;
+    margin-top: 20px;
+  }
+  .Boost-efficiency-and-increase-accessibility {
+    width: 474px;
+    height: 86px;
+    margin: 0 42px 24px 0;
+    font-size: 32px;
+  }
+  .OpenText-implementation-for-ADDAX-petroleum {
+    width: 515px;
+    height: 27px;
+    margin: 24px 0 40px 1px;
+    font-size: 20px;
+  }
+  .accordionn-itemm {
+    width: 80%;
+  }
+  .accordionn-item-headerr {
+    font-size: 18px;  
+  }
+  .Group-130 {
+    height: 810px;
+  }
+  .Rectangle-39 {
+    width: 329px;
+    height: 469px;
+    margin: 0 0.5px 0 0;
+    padding: 8px 8px 24px;
+  }
+  .footer-Res{
+    display: none;
+  }
 }
 @media (max-width: 767px) {
+  .col-xs-6 {
+    width: 50%;
+ }
+ .col-xs-12 {
+  width: 100%;
+}
   .Opentext-Platinum-Partner {
     font-size: 18px;
   }
@@ -165,6 +301,15 @@ section {
   height: 11px;
   font-size: 8px;
   }
+  .Ready-to-be-Empowered-We-create-solutions-that-drive-results {
+    /* margin-top: 50px;
+    margin-bottom: 40px; */
+    margin: 40px 60px;
+    font-size: 18px;
+  }
+  .Ready-to-be-Empowered-We-create-solutions-that-drive-results .text-style-1 {
+    font-size: 24px;
+  }
   .-years {
     font-size: 14px;
   }
@@ -176,12 +321,113 @@ section {
     margin: auto;
   }
   .left-side2 {
-    padding: 20px 50px 10px 50px ;
+    padding: 20px 40px 10px 40px ;
+  }
+  .first-cards{
+    /* margin-bottom:  10px; */
+    padding: 0 30px;
+
   }
   .card1{
-    margin-top: 10px;
+    margin-top: 20px;
+    height: 140px;
   }
-  .footer-content{
+  .accordionn-item-headerr {
+    font-size: 10px;  
+  }
+  .Rectangle-23 {
+    width: 95%;
+    height: 48px;
+    margin-left:10px;
+    padding-top: 15px;
+    text-align: center;
+    /* padding: 15px 90px 15px 90px; */
+    margin-top: 20px;
+  }
+  .card-text1 {
+    margin-top: 100px;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  .second-section2 {
+    display: none;
+  }
+  .Egyptian-Knowledge-Bank {
+    font-size: 18px;
+  }
+  .A-desired-thinking-and-Innovating-Egyptian-Society {
+    font-size: 23px;
+  }
+  .ASSET-was-honored{
+    font-size: 14px;
+  }
+  .Rectangle-24 {
+    padding: 0;
+    width: 90%;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  .Rectangle-52 {
+    width: 100%;
+    margin: 80px 0 0;
+    padding: 20px 35px;
+  }
+  .-Years-in-the-Technology-Transformation-Business {
+    width: 286px;
+  height: 172px;
+  margin: 0 0 16px;
+  /* padding: 74.9px 128.4px 29.3px 123.7px; */
+  font-family: OpenSans;
+  font-size: 32px;
+  }
+  .Our-mission-is-to-deliver {
+    font-size: 14px;
+  }
+  .-Years-of-Experience {
+    font-size: 14px;
+  }
+  
+  .text-style-years {
+    font-size: 24px;
+  }  
+  .Our-Technology-Partners {
+    width: 100%;
+    height: 57px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 24px;
+  }
+  .Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-Aliquam-aliquet-elit-vel-semper-dapibus-m{
+    font-size: 10px;
+  }
+  .Our-Technology-Partners .text-style-1 {
+    font-size: 18px;
+  }
+  .OpenText-implementation-for-ADDAX-petroleum {
+    /* width: 515px;
+    height: 27px;
+    margin: 24px 0 40px 1px; */
+    font-size: 14px;
+  }
+  .accordionn-itemm {
+    width: 100%;
+  }
+  .Group-130 {
+    height: 340px;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 90%;
+  }
+  .Rectangle-39 {
+    width: 90%;
+    /* height: 390px; */
+    /* margin: 0 0.5px 0 0;
+    padding: 8px 8px 24px; */
+    margin-left: 10px;
+    padding: 7px 7px 16px;
+  }
+  .footerbody{
     display: none;
   }
   .MegaMenu-header{
@@ -193,7 +439,46 @@ section {
   #navBarSec{
     display: none;
   }
-  
+
+  .Everything-your-business {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #272727;
+  }
+  .Rectangle-34 {
+    width: 90%;
+    margin-left: 20px;
+    padding: 25px 30px 30px 40px;
+    /* height: 490px; */
+    /* margin-top: 20px; */
+  }
+  .Boost-efficiency-and-increase-accessibility {
+    /* width: 214px;
+  height: 99px; */
+  /* margin: 0 20px 16px 0; */
+  margin-bottom: 10px;
+  font-size: 24px;
+  }
+  .footer-Res{
+    width: 100%;
+    height: 60px;
+    background-color: #202020;
+    font-size: 9px;
+    font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  }
 }
 #search-section.active{
   display: none;
@@ -258,9 +543,6 @@ section {
   .sidenav a {font-size: 18px;}
 }
 
-.second-section {
-  padding-top: 2%;
-}
 
 .On-our-30th-year {
   padding: 2%;
@@ -296,17 +578,6 @@ section {
   color: #272727;
 }
 
-.Everything-your-business-needs-Seamlessly-Reimagined-Created-Implemented {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 32px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: #272727;
-}
 .text-style-1 {
   font-size: 24px;
   font-weight: 300;
@@ -326,11 +597,8 @@ section {
 
 .card-text1 {
   position: absolute;
-  margin-top: 180px;
-  margin-left: 10px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.53);
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -343,9 +611,7 @@ section {
 
 .Rectangle-24 {
   padding: 0;
-  margin: 10px;
-  width: 500px;
-  height: 500px;
+  /* margin: 10px; */
   /* opacity: 0.47; */
   background: linear-gradient(
       to bottom,
@@ -359,7 +625,6 @@ section {
 
 .Egyptian-Knowledge-Bank {
   font-family: 'Open Sans', sans-serif;
-  font-size: 24px;
   font-weight: 300;
   font-stretch: normal;
   font-style: normal;
@@ -371,7 +636,6 @@ section {
 
 .A-desired-thinking-and-Innovating-Egyptian-Society {
   font-family: 'Open Sans', sans-serif;
-  font-size: 32px;
   font-weight: 300;
   font-stretch: normal;
   font-style: normal;
@@ -381,21 +645,8 @@ section {
   color: #272727;
 }
 
-.ASSET-was-honored-to-be-selected-as-the-technology-partner-by-the-government-responsible-for-buildi {
+.ASSET-was-honored{
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #272727;
-}
-
-.ASSET-in-cooperation-with-contents-providers-consortium-members-were-able-to-deliver-such-huge-proje {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -406,7 +657,8 @@ section {
 }
 
 .Rectangle-22 {
-  margin-left: 50px;
+  /* margin-left: 50px; */
+  width: 100%;
 }
 
 .Rectangle-25 {
@@ -428,10 +680,6 @@ img.dots-pattern {
 }
 
 .Rectangle-52 {
-  width: 100%;
-  /* height: 380px; */
-  margin: 80px 0 0;
-  padding: 70px 139px;
 
   /* opacity: 0.47; */
   background-image: url(../Images/dots-pattern.png);
@@ -468,10 +716,6 @@ img.message {
 }
 
 .Rectangle-23 {
-  width: 260px;
-  height: 56px;
-  padding: 17px 86px 17px 87px;
-  margin-top: 60px;
   border-radius: 2px;
   background-image: linear-gradient(
     to right,
@@ -495,10 +739,7 @@ img.message {
 }
 
 .Ready-to-be-Empowered-We-create-solutions-that-drive-results {
-  margin-top: 70px;
-  margin-bottom: 40px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 24px;
   font-weight: 300;
   font-stretch: normal;
   font-style: normal;
@@ -508,7 +749,6 @@ img.message {
   color: #272727;
 }
 .Ready-to-be-Empowered-We-create-solutions-that-drive-results .text-style-1 {
-  font-size: 32px;
   font-weight: bold;
 }
 
@@ -535,11 +775,7 @@ img.message {
 }
 
 .-Years-in-the-Technology-Transformation-Business {
-  width: 398px;
-  height: 220px;
-  margin: 0 16px 0 0;
   font-family: 'Open Sans', sans-serif;
-  font-size: 40px;
   font-weight: 800;
   font-stretch: normal;
   font-style: normal;
@@ -549,12 +785,8 @@ img.message {
   color: #fff;
 }
 
-.Our-mission-is-to-deliver-smooth-IT-Transformation-Experiences-to-our-customers-empowered-by-profess {
-  /* width: 674px;
-    height: 96px;
-    margin: 19px 0 16px 16px; */
+.Our-mission-is-to-deliver {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
   font-weight: 100;
   font-stretch: normal;
   font-style: normal;
@@ -565,11 +797,8 @@ img.message {
 }
 
 .-Years-of-Experience {
-  /* width: 191px;
-    height: 70px; */
-  /* margin: 16px 16px 19px; */
+  width: 100%;
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -580,16 +809,12 @@ img.message {
 }
 
 .text-style-years {
-  font-size: 32px;
+  width: 100%;
   font-weight: 800;
 }
 
 .Our-Technology-Partners {
-  width: 100%;
-  height: 76px;
-  margin: 88px 0 82px 0;
   font-family: 'Open Sans', sans-serif;
-  font-size: 32px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -600,35 +825,24 @@ img.message {
 }
 
 .Our-Technology-Partners .text-style-1 {
-  font-size: 24px;
   font-weight: 300;
   display: block;
 }
 
 .Group-130 {
-  /* width: 675px; */
-  height: 810px;
   background-image: url(../Images/Group\ 130.jpg);
   /* margin: 80px 0 88px 16px; */
   background-size: cover;
 }
 
 .Rectangle-34 {
-  /* width: 635px; */
-  /* height: 340px; */
-  /* margin: 50px 10px 0 0; */
-  padding: 2% 1% 2% 3%;
   object-fit: contain;
   box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
 
 .Boost-efficiency-and-increase-accessibility {
-  width: 474px;
-  height: 86px;
-  margin: 0 42px 24px 0;
   font-family: 'Open Sans', sans-serif;
-  font-size: 32px;
   font-weight: 800;
   font-stretch: normal;
   font-style: normal;
@@ -639,11 +853,7 @@ img.message {
 }
 
 .OpenText-implementation-for-ADDAX-petroleum {
-  width: 515px;
-  height: 27px;
-  margin: 24px 0 40px 1px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -668,10 +878,6 @@ img.message {
 }
 
 .Rectangle-39 {
-  width: 329px;
-  height: 469px;
-  margin: 0 0.5px 0 0;
-  padding: 8px 8px 24px;
   box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.16);
   border-radius: 2px;
   background-color: #fff;
@@ -736,13 +942,10 @@ img.message {
   border-radius: 50px;
   color: #111;
   margin-top: 1rem ;
-  width: 80%;
-
 }
 .accordionn-itemm2 {
   color: #111;
   width: 100%;
-
 }
 
 .accordionn-item-headerr {
@@ -750,12 +953,10 @@ img.message {
   background-color: #fff;
   color: #000;
   border-radius: 50px;
-
   padding: 0.3rem 2rem 0.3rem 1rem;
   min-height: 2.5rem;
   line-height: 1.25rem;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;  
   font-weight: 500;
   display: flex;
   align-items: center;
