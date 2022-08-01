@@ -1082,8 +1082,8 @@ img.message {
 .accordionn-item-body-contentt2 {
   padding: 1rem;
   line-height: 1.5rem;
-  border-top: 1px solid;
-  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+  /* border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1; */
 }
 
 

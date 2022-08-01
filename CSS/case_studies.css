@@ -1,0 +1,361 @@
+.Fbold {
+  font-weight: bold;
+}
+* {
+  font-family: "Open Sans", sans-serif;
+}
+.MynavBar {
+  width: 100%;
+  background-color: white;
+  padding: 0 7%;
+}
+.text_navBar {
+  font-size: 16px;
+  margin-right: 20px;
+}
+.header-imagee {
+  width: 100%;
+  height: 35vh;
+  background-image: url(../Images/case-studies.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header-text {
+  width: 100%;
+  height: 6vh;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.432);
+  color: white;
+  font-size: 14px;
+  padding: 5px 7%;
+}
+.second-section {
+  padding: 5% 0 3% 0;
+}
+.Transform-Insights-Automate-Processes {
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #272727;
+}
+.icon-img {
+  width: 48px;
+  height: 48px;
+  margin-right: 2%;
+}
+.customerMagrabi {
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #272727;
+}
+.Line-9 {
+  width: 100%;
+  height: 1px;
+  margin: 28.5px 0 0 0;
+  background-color: #e2e2e2;
+}
+.Header-info {
+  margin: 45px 0;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: #272727;
+}
+.content-info {
+  margin: 1vh 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #272727;
+}
+.Case-Study-Highlights {
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #272727;
+}
+.check {
+  width: 26px;
+  height: 26px;
+  /* text-align: center; */
+  display: inline-block;
+  background-image: url(../Images/Ellipse\ 11.png);
+}
+.check-icon {
+  width: 10px;
+  height: 9px;
+  color: white;
+  margin: 0 20%;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+.check-info {
+    width: 100%;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #272727;
+}
+.downloadButton {
+  width: 100%;
+  height: 64px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 2vh 0;
+  background-image: url(../Images/button.png);
+  background-size: cover;
+}
+.Rectangle-96 {
+  width: 100%;
+  height: 487px;
+  /* margin: 66px 139px 182px 16px; */
+  padding: 40px 19px 32px 16px;
+  border-radius: 5px;
+  background-color: #133862;
+}
+.Subscribe-to-our-Newsletter {
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+.Join-thousands {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.Join-thousands .text-style-1 {
+  font-style: italic;
+}
+.subInput {
+  font-size: 12px;
+  color: rgb(218, 218, 218);
+  width: 70%;
+  height: 40px;
+  margin: 0;
+}
+.Subscribe {
+  display: inline;
+  padding: 9px 23px 10px 22px;
+  margin: 0;
+  width: 30%;
+  height: 100%;
+  background-color: #02a4ef;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+.checking-text{
+    margin-left: 20px;
+    font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+#checking11{
+    width: 16px;
+  height: 16px;
+  border-radius: 2px;
+    position: absolute;
+    top: 5px;
+}
+.Rectangle-79 {
+    width: 100%;
+    height: 290px;
+    margin: 80px 0;
+    padding: 23.5px 51px 6px 64px;
+    border: solid 1px #707070;
+    background-color: #0d31a8;
+  }
+  .Our-Customers {
+    width: 171px;
+    height: 33px;
+    margin: 37.5px 370px 0 62.1px;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+  .Embrace-the-Breakthrough {
+    width: 100%;
+    margin-left: 62px;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+  .Rectangle-2 {
+    width: 320px;
+    height: 64px;
+    margin: 24px 221px 55px 62.1px;
+    padding: 15px 0;
+    border-radius: 5px;
+    background-color: #02a4ef;
+    font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff
+  }
+  .Rectangle-71 {
+    /* width: 100%; */
+    /* height: 847px; */
+    /* margin: 80px 1px 977px 139px; */
+    padding: 24px 7px 24px 8px;
+    border-radius: 5px;
+    background-color: #f6f6f6;
+    text-align: right;
+  }
+  .Clear-all-filters {
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #0d31a8;
+    text-decoration: underline;
+  }
+  .Rectangle-72 {
+    width: 100%;
+    height: 236px;
+    margin: 24px 1px 24px 0;
+    padding: 16px 165px 15px 16px;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: left;
+  }
+  .Sector {
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #272727;
+  }
+  .list-label{
+    position: absolute;
+    width: 199px;
+    top: 1px;
+    margin-left: 7px;
+    font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  }
+  .footerbody {
+    background-color: #262626;
+    font-size: 14px;
+  }
+  .footer-text{
+    width: 60%;
+    height: 85px;
+    margin: 5% 10% 64px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+  .Subscribe-to-our-newsletter {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+  
+  .rightfooter input {
+    width: 400px;
+    height: 35px;
+    background-image: url("../Images/Icon\ awesome-paper-plane.png");
+    background-repeat: no-repeat;
+    background-position: right; 
+  }
+  
+  .form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  .form-control.shadow-0:focus {
+    box-shadow: none;
+  }
+  
+  .footer-img{
+    width: 16px;
+    height: 16px;
+    margin-left:16px;
+    object-fit: contain;
+  }
+  
