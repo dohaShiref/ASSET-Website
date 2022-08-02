@@ -1,9 +1,14 @@
 .Fbold {
   font-weight: bold;
 }
+.Fitalic{
+  font-style: italic;
+  color: #0d31a8;
+}
 * {
   font-family: "Open Sans", sans-serif;
 }
+
 .MynavBar {
   width: 100%;
   background-color: white;
@@ -15,7 +20,6 @@
 }
 .header-imagee {
   width: 100%;
-  height: 35vh;
   background-image: url(../Images/case-studies.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,19 +27,15 @@
 }
 .header-text {
   width: 100%;
-  height: 6vh;
   position: absolute;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.432);
   color: white;
-  font-size: 14px;
-  padding: 5px 7%;
 }
 .second-section {
   padding: 5% 0 3% 0;
 }
 .Transform-Insights-Automate-Processes {
-  font-size: 36px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -44,13 +44,7 @@
   text-align: left;
   color: #272727;
 }
-.icon-img {
-  width: 48px;
-  height: 48px;
-  margin-right: 2%;
-}
 .customerMagrabi {
-  font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -60,14 +54,12 @@
   color: #272727;
 }
 .Line-9 {
-  width: 100%;
+  width: 95%;
   height: 1px;
   margin: 28.5px 0 0 0;
   background-color: #e2e2e2;
 }
 .Header-info {
-  margin: 45px 0;
-  font-size: 40px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -79,9 +71,8 @@
 .content-info {
   margin: 1vh 0;
   padding: 0;
-  width: 100%;
+  width: 95%;
   display: block;
-  font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -91,7 +82,6 @@
   color: #272727;
 }
 .Case-Study-Highlights {
-  font-size: 24px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -101,24 +91,18 @@
   color: #272727;
 }
 .check {
-  width: 26px;
-  height: 26px;
   /* text-align: center; */
   display: inline-block;
   background-image: url(../Images/Ellipse\ 11.png);
+  background-size: cover;
 }
 .check-icon {
-  width: 10px;
-  height: 9px;
   color: white;
-  margin: 0 20%;
   text-decoration: none;
   font-weight: 100;
 }
 
 .check-info {
-    width: 100%;
-  font-size: 15px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -128,14 +112,10 @@
   color: #272727;
 }
 .downloadButton {
-  width: 100%;
-  height: 64px;
   border-radius: 5px;
   color: white;
   text-align: center;
-  font-size: 24px;
   font-weight: bold;
-  padding: 2vh 0;
   background-image: url(../Images/button.png);
   background-size: cover;
 }
@@ -254,7 +234,7 @@
   }
   .Rectangle-71 {
     /* width: 100%; */
-    /* height: 847px; */
+    height: 847px;
     /* margin: 80px 1px 977px 139px; */
     padding: 24px 7px 24px 8px;
     border-radius: 5px;
@@ -279,6 +259,10 @@
     border-radius: 5px;
     background-color: #fff;
     text-align: left;
+
+  }
+  .rel{
+    position: relative;
   }
   .Sector {
     font-size: 24px;
@@ -303,6 +287,102 @@
   letter-spacing: normal;
   text-align: left;
   color: #707070;
+  }
+  .Rectangle-101 {
+    /* padding: 0; */
+    width: 352px;
+    height: 336px;
+    margin: 0 0 16px 0;
+    border-radius: 5px;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px #e1e1e1;
+    background-color: #fff;
+  }
+  .card-img-top{
+     width: 350px;
+  height: 184px;
+  object-fit: contain;
+  /* border-radius: 5px; */
+  }
+  .card-title{
+    font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0d31a8;
+  }
+  .card-text{
+    font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #272727;
+  }
+  .card-li{
+    font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #c2c2c2;
+  display: inline;
+  }
+  .img-card-footter{
+    width: 18px;
+    height: 16px;
+    display: inline;
+  }
+  .img-card-location{
+    width: 11px;
+    height: 16px;
+    display: inline;
+  }
+  .card-foot{
+    width: 100%;
+    padding: 0 16px 16px 16px;
+    position: relative;
+  }
+  .locationn{
+    display: inline;
+    position: absolute;
+    right: 16px;
+  }
+  .Rectangle-102 {
+    display: inline;
+    width: 40px;
+    height: 40px;
+    /* margin: 0 38px 0 0; */
+    padding: 16px 17.4px 16px 18px;
+    border: solid 1px #dfdfdf;
+    background-color: #fff;
+  }
+  .current-page{
+    border: solid 1px #dfdfdf;
+    background-color: #fff;
+  }
+  .current-page.active{
+    border: solid 1px #dfdfdf;
+    background-color: #0d31a8;
+  }
+  .section_number{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    color: #dfdfdf;
+  }
+  .arrows{
+    color: #dfdfdf;
+    width: 4.6px;
+    height: 8px;
+    text-decoration: none;
   }
   .footerbody {
     background-color: #262626;
@@ -359,3 +439,140 @@
     object-fit: contain;
   }
   
+  @media (min-width: 768px) {
+    #navBar-Responsive{
+      display: none;
+    }
+    .header-imagee {
+      height: 35vh;
+    }
+    .header-text {
+      height: 6vh;
+      font-size: 14px;
+      padding: 5px 7%;
+    }
+    .Transform-Insights-Automate-Processes {
+      font-size: 36px;
+    }
+    .icon-img {
+      width: 48px;
+      height: 48px;
+      margin-right: 2%;
+    }
+    .customerMagrabi {
+      font-size: 18px;
+    }
+    .Header-info {
+      margin: 45px 0;
+      font-size: 40px;
+    }
+    .content-info {
+      font-size: 16px;
+    }
+    .Case-Study-Highlights {
+      font-size: 24px;
+      margin-bottom: 7%;
+    }
+    .check {
+      width: 26px;
+      height: 26px;
+    }
+    .check-icon {
+      width: 10px;
+      height: 9px;
+      margin: 0 20%;
+    }
+    .check-info {
+      width: 100%;
+    font-size: 15px;
+    }
+    .downloadButton {
+      width: 100%;
+      height: 64px;
+      font-size: 24px;
+      padding: 2vh 0;
+    }
+  }
+  @media (max-width: 767px) {
+    .col-xs-6 {
+      width: 50%;
+   }
+   .col-xs-12 {
+    width: 100%;
+  }
+  .MynavBar{
+    display: none;
+  }
+  #navBar-Responsive{
+    width:100%; 
+    background-color: #fff;}
+    .header-imagee {
+      height: 20vh;
+    }
+    .header-text {
+      height: 4vh;
+      font-size: 8px;
+      padding: 0 5%;
+      padding-top: 5px;
+    }
+    .Transform-Insights-Automate-Processes {
+      font-size: 24px;
+    }
+    .size-small{
+      margin-left: 15px;
+    }
+    .icon-img {
+      width: 28px;
+      height: 28px;
+      margin-right: 2%;
+    }
+    .customerMagrabi {
+      font-size: 12px;
+    }
+    .link_dec{
+      color: #0d31a8; 
+      text-decoration:underline ;
+    }
+    .Header-info {
+      margin: 25px 0;
+      font-size: 28px;
+    }
+    .content-info {
+      font-size: 12px;
+    }
+    .Case-Study-Highlights {
+      font-size: 18px;
+    }
+    .check-list-small{
+      margin: 20px 15px;
+    }
+    .check {
+      width: 20px;
+      height: 20px;
+    }
+    .check-icon {
+      width: 7px;
+      height: 6px;
+      margin: 0 15%;
+    }
+    .check-info {
+      width: 100%;
+    font-size: 12px;
+    }
+    .downloadButton {
+      width: 80%;
+      height: 44px;
+      font-size: 18px;
+      padding: 1vh 0;
+    }
+}
+#search-section2{
+  display: none;
+  width: 100%;
+  height:24px
+}
+#mySidenav{
+  display: none;
+  width: 100%; 
+  background-color:#fff;
+}
