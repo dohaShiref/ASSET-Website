@@ -8,6 +8,10 @@
 * {
   font-family: "Open Sans", sans-serif;
 }
+.link_dec{
+  color: #0d31a8; 
+  text-decoration:underline ;
+}
 
 .MynavBar {
   width: 100%;
@@ -120,15 +124,10 @@
   background-size: cover;
 }
 .Rectangle-96 {
-  width: 100%;
-  height: 487px;
-  /* margin: 66px 139px 182px 16px; */
-  padding: 40px 19px 32px 16px;
   border-radius: 5px;
   background-color: #133862;
 }
 .Subscribe-to-our-Newsletter {
-  font-size: 24px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -138,7 +137,6 @@
   color: #fff;
 }
 .Join-thousands {
-  font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -152,26 +150,17 @@
   font-style: italic;
 }
 .subInput {
-  font-size: 12px;
   color: rgb(218, 218, 218);
-  width: 70%;
-  height: 40px;
   margin: 0;
 }
 .Subscribe {
   display: inline;
-  padding: 9px 23px 10px 22px;
   margin: 0;
-  width: 30%;
-  height: 100%;
   background-color: #02a4ef;
-  font-size: 14px;
   font-weight: bold;
   color: #fff;
 }
 .checking-text{
-    margin-left: 20px;
-    font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -181,25 +170,16 @@
   color: #fff;
 }
 #checking11{
-    width: 16px;
-  height: 16px;
   border-radius: 2px;
     position: absolute;
     top: 5px;
 }
 .Rectangle-79 {
     width: 100%;
-    height: 290px;
-    margin: 80px 0;
-    padding: 23.5px 51px 6px 64px;
     border: solid 1px #707070;
     background-color: #0d31a8;
   }
   .Our-Customers {
-    width: 171px;
-    height: 33px;
-    margin: 37.5px 370px 0 62.1px;
-    font-size: 24px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -209,9 +189,6 @@
     color: #fff;
   }
   .Embrace-the-Breakthrough {
-    width: 100%;
-    margin-left: 62px;
-    font-size: 36px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -221,28 +198,19 @@
     color: #fff;
   }
   .Rectangle-2 {
-    width: 320px;
-    height: 64px;
-    margin: 24px 221px 55px 62.1px;
-    padding: 15px 0;
     border-radius: 5px;
     background-color: #02a4ef;
-    font-size: 24px;
   font-weight: bold;
   text-align: center;
   color: #fff
   }
   .Rectangle-71 {
     /* width: 100%; */
-    height: 847px;
-    /* margin: 80px 1px 977px 139px; */
-    padding: 24px 7px 24px 8px;
     border-radius: 5px;
     background-color: #f6f6f6;
     text-align: right;
   }
   .Clear-all-filters {
-    font-size: 14px;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -252,10 +220,6 @@
     text-decoration: underline;
   }
   .Rectangle-72 {
-    width: 100%;
-    height: 236px;
-    margin: 24px 1px 24px 0;
-    padding: 16px 165px 15px 16px;
     border-radius: 5px;
     background-color: #fff;
     text-align: left;
@@ -265,7 +229,6 @@
     position: relative;
   }
   .Sector {
-    font-size: 24px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -276,10 +239,6 @@
   }
   .list-label{
     position: absolute;
-    width: 199px;
-    top: 1px;
-    margin-left: 7px;
-    font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -290,22 +249,16 @@
   }
   .Rectangle-101 {
     /* padding: 0; */
-    width: 352px;
-    height: 336px;
-    margin: 0 0 16px 0;
     border-radius: 5px;
     box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.1);
     border: solid 1px #e1e1e1;
     background-color: #fff;
   }
   .card-img-top{
-     width: 350px;
-  height: 184px;
   object-fit: contain;
   /* border-radius: 5px; */
   }
   .card-title{
-    font-size: 20px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -315,7 +268,6 @@
   color: #0d31a8;
   }
   .card-text{
-    font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -325,7 +277,6 @@
   color: #272727;
   }
   .card-li{
-    font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -357,10 +308,6 @@
   }
   .Rectangle-102 {
     display: inline;
-    width: 40px;
-    height: 40px;
-    /* margin: 0 38px 0 0; */
-    padding: 16px 17.4px 16px 18px;
     border: solid 1px #dfdfdf;
     background-color: #fff;
   }
@@ -373,8 +320,6 @@
     background-color: #0d31a8;
   }
   .section_number{
-    margin-top: 50px;
-    width: 100%;
     text-align: center;
     color: #dfdfdf;
   }
@@ -492,6 +437,115 @@
       font-size: 24px;
       padding: 2vh 0;
     }
+    .Rectangle-96 {
+      width: 100%;
+      height: 487px;
+      /* margin: 66px 139px 182px 16px; */
+      padding: 40px 19px 32px 16px;
+    }
+    .Subscribe-to-our-Newsletter {
+      font-size: 24px;
+    }
+    .Join-thousands {
+      font-size: 14px;
+    }
+    .subInput {
+      font-size: 12px;
+      width: 70%;
+      height: 40px;
+    }
+    .Subscribe {
+      width: 30%;
+      height: 100%;
+      font-size: 14px;
+      padding: 9px 23px 10px 22px;
+
+    }
+    .checking-text{
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    #checking11{
+        width: 16px;
+      height: 16px;
+    }
+    .Rectangle-79 {
+      height: 290px;
+      margin: 80px 0;
+      padding: 23.5px 51px 6px 64px;
+    }
+    .Our-Customers {
+      width: 171px;
+      height: 33px;
+      margin: 37.5px 370px 0 62.1px;
+      font-size: 24px;
+    }
+    .Embrace-the-Breakthrough {
+      width: 100%;
+      margin-left: 62px;
+      font-size: 36px;
+    }
+    .Rectangle-2 {
+      width: 320px;
+      height: 64px;
+      margin: 24px 221px 55px 62.1px;
+      padding: 15px 0;
+      font-size: 24px;
+    }
+    .Clear-all-filters {
+      font-size: 14px;
+    }
+    .Rectangle-71 {
+      /* width: 100%; */
+      height: 847px;
+      /* margin: 80px 1px 977px 139px; */
+      padding: 24px 7px 24px 8px;
+    }
+    .Rectangle-72 {
+      width: 100%;
+      height: 236px;
+      margin: 24px 1px 24px 0;
+      padding: 16px 165px 15px 16px;
+    }
+    .Sector {
+      font-size: 24px;
+    }
+    .list-label{
+      top: 1px;
+      width: 199px;
+      margin-left: 7px;
+      font-size: 14px;
+    }
+    .Rectangle-101 {
+      /* padding: 0; */
+      width: 352px;
+      height: 336px;
+      margin: 0 0 16px 0;
+    }
+    .card-img-top{
+      width: 350px;
+  height: 184px;
+   }
+   .card-title{
+    font-size: 20px;  
+   }
+   .card-text{
+    font-size: 14px;
+  }
+  .card-li{
+    font-size: 14px;
+  }
+  .Rectangle-102 {
+    display: inline;
+    width: 40px;
+    height: 40px;
+    /* margin: 0 38px 0 0; */
+    padding: 16px 17.4px 16px 18px;
+  }
+  .section_number{
+    margin-top: 50px;
+    width: 100%;
+  }
   }
   @media (max-width: 767px) {
     .col-xs-6 {
@@ -500,6 +554,13 @@
    .col-xs-12 {
     width: 100%;
   }
+  .col-xs-4 {
+    width: 30%;
+  }
+  .col-xs-8 {
+    width: 70%;
+  }
+  
   .MynavBar{
     display: none;
   }
@@ -529,16 +590,14 @@
     .customerMagrabi {
       font-size: 12px;
     }
-    .link_dec{
-      color: #0d31a8; 
-      text-decoration:underline ;
-    }
+    
     .Header-info {
       margin: 25px 0;
       font-size: 28px;
     }
     .content-info {
       font-size: 12px;
+      width: 80%;
     }
     .Case-Study-Highlights {
       font-size: 18px;
@@ -556,14 +615,143 @@
       margin: 0 15%;
     }
     .check-info {
-      width: 100%;
+      width: 70%;
     font-size: 12px;
     }
     .downloadButton {
-      width: 80%;
+      width: 90%;
       height: 44px;
       font-size: 18px;
       padding: 1vh 0;
+    }
+    .Rectangle-96 {
+      width: 90%;
+      /* height: 487px; */
+      /* margin: 66px 139px 182px 16px; */
+      padding: 40px 19px 32px 16px;
+    }
+    .Subscribe-to-our-Newsletter {
+      font-size: 18px;
+    }
+    .Join-thousands {
+      font-size: 10px;
+    }
+    .subInput {
+      font-size: 10px;
+      width: 65%;
+      height: 30px;
+    }
+    .Subscribe {
+      display: inline;
+      width: 25%;
+      height: 20px;
+      font-size: 12px;
+      padding: 6px 23px 7px 22px;
+
+    }
+    .checking-text{
+        margin-left: 20px;
+        font-size: 10px;
+    }
+    #checking11{
+        width: 14px;
+      height: 14px;
+    }
+    .Rectangle-79 {
+      height: 290px;
+      width: 400px;
+      /* margin: 80px 0; */
+      /* padding: 23.5px 51px 6px 64px; */
+      text-align: center;
+    }
+    .group-ph{
+      display: none;
+    }
+    .footerbody{
+      display: none;
+    }
+    .Our-Customers {
+      /* width: 171px;
+      height: 33px; */
+      margin: 37px 0;
+      margin-left: 30%;
+      font-size: 20px;
+    }
+    .Embrace-the-Breakthrough {
+      /* width: 80%; */
+      margin-left: 30%;
+      font-size: 28px;
+    }
+    .Rectangle-2 {
+      width: 220px;
+      height: 54px;
+      margin: 24px 0;
+      margin-left: 25%;
+      padding: 15px 0;
+      font-size: 18px;
+    }
+    .Clear-all-filters {
+      font-size: 10px;
+    }
+    .Rectangle-71 {
+      /* width: 100%; */
+      height: 780px;
+      /* margin: 80px 1px 977px 139px; */
+      padding: 14px 7px 14px 8px;
+    }
+    .Rectangle-72 {
+      width: 95%;
+      height: 220px;
+      margin: 14px 1px 14px 0;
+      padding-left: 7px;
+      /* padding: 16px 165px 15px 16px; */
+    }
+    .Sector {
+      font-size: 14px;
+    }
+    .list-label{
+      width: 80px;
+      margin-left: 7px;
+      font-size: 8px;
+      top: 7px;
+    }
+    .chBox{
+      width: 10px;
+      height: 10px;
+      /* position: absolute; */
+      /* top: 0; */
+    }
+    .Rectangle-101 {
+      /* padding: 0; */
+      width: 90%;
+      height: 290px;
+      margin: 0 0 14px 0;
+      /* position: relative; */
+    }
+    .card-img-top{
+      /* position: absolute; */
+      width: 100%;
+  height: 150px;
+   }
+   .card-title{
+    font-size: 15px;  
+   }
+    .card-text{
+      font-size: 10px;
+    }
+    .card-li{
+      font-size: 10px;
+    }
+    .Rectangle-102 {
+      display: inline;
+      width: 20px;
+      height: 20px;
+      /* margin: 0 38px 0 0; */
+      padding: 10px 12px 10px 12px;
+    }
+    .section_number{
+      margin: 20px 0;
+      width: 80%;
     }
 }
 #search-section2{
